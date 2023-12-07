@@ -21,3 +21,31 @@ body {
   --static-3: rgba(255, 255, 255, 0.03);
   --static-10: rgba(255, 255, 255, 0.1);
 }
+
+.my-background {
+  background: var(--background);
+}
+
+.my-primary {
+  color: var(--primary);
+}
+
+.my-secondary {
+  color: var(--secondary);
+}
+
+.my-accent {
+  color: var(--accent);
+}
+
+.my-static-3 {
+  color: var(--static-3);
+}
+
+.my-static-5 {
+  color: var(--static-5);
+}
+
+.my-text {
+  color: text;
+}
